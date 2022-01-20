@@ -163,7 +163,6 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		margin-bottom: 30px;
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -2039,4 +2038,12 @@ input, select, textarea {
 #people img{
 	width: 150px;
 	height: 150px;
+}
+
+#content .row{
+	margin-bottom: 30px;
+}
+
+#content div{
+	word-break: break-word;
 }
