@@ -27,7 +27,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+body, html{
+	height: 100%;
 }
 
 ol, ul {
@@ -87,9 +88,9 @@ input, select, textarea {
 	}
 
 	body {
-		background: #D4D9DD url("images/bg03.jpg");
+		background: #f7f7f7 url("images/bg02.png");
 		color: #474f51;
-		font-size: 13.5pt;
+		font-size: 12pt;
 		font-family: 'Arial,Helvetica,sans-serif';
 		line-height: 1.85em;
 		font-weight: initial;
@@ -354,7 +355,6 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: -25px;
 			margin-left: -25px;
 		}
 
@@ -597,7 +597,7 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: -25px;
+					margin-top: 0;
 					margin-left: -25px;
 				}
 
@@ -1087,7 +1087,7 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: -25px;
+					margin-top: 0px;
 					margin-left: -25px;
 				}
 
@@ -1515,8 +1515,9 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		font-size: 12.5pt;
 		position: relative;
-		background: #3B4346 url("images/bg05.png");
+		background: #243B2B url(../../images/bg.png) center top repeat-x;
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		/*text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);*/
@@ -1524,13 +1525,13 @@ input, select, textarea {
 
 		#header > .container {
 			position: relative;
-			min-height: 100px;
+			min-height: 60px;
 		}
 
 		#header h1 {
 			position: absolute;
 			left: 0;
-			bottom: 20px;
+			bottom: 15px;
 			font-size: 2em;
 		}
 
@@ -1542,8 +1543,8 @@ input, select, textarea {
 		#header nav {
 			position: absolute;
 			right: 0;
-			bottom: 15px;
-			font-weight: 300;
+			bottom: 10px;
+			font-weight: 400;
 		}
 
 			#header nav a {
@@ -1610,7 +1611,6 @@ input, select, textarea {
 /* Content */
 
 	#content {
-		background: #f7f7f7 url("images/bg02.png");
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
@@ -1694,7 +1694,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		border-top: solid 1px #b5bec3;
+		border-top: solid 1px #34952e;
 		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
 		text-align: center;
 		padding: 0;
@@ -2052,6 +2052,10 @@ input, select, textarea {
 	margin-bottom: 30px;
 }
 
+#content a{
+	color: #428bca;
+	text-decoration: none;
+}
 #content div{
 	word-break: break-word;
 }
