@@ -26,7 +26,14 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
+
+#id {
+	font-weight: 100;
+	font-size: 20pt;
+	font-family: Cambria, Georgia, serif;
+}
 
 body, html{
 	height: 100%;
@@ -34,12 +41,12 @@ body, html{
 
 ol, ul{
 	display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 1em;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 1em;
 }
 
 blockquote, q {
@@ -1552,7 +1559,7 @@ input, select, textarea {
 				color: #c6c8c8;
 				text-decoration: none;
 				font-size: 1.1em;
-				margin-left: 60px;
+				margin-left: 30px;
 				outline: 0;
 			}
 
