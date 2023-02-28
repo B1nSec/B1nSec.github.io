@@ -2075,3 +2075,23 @@ input, select, textarea {
 hr {
 	border-top: 1px solid #e5e5e5;
 }
+
+.people-card {
+	padding: 0;
+	text-align: center;
+}
+
+.people-card > div{
+	margin: 30px 2.5%;
+}
+.people-card div{
+	display: inline-block;
+	width: 280px;
+	text-align: center;
+}
+.people-card h7{
+	text-align: center;
+}
+.people-card h5{
+	text-align: center;
+}
